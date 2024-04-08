@@ -1,0 +1,11 @@
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+.post {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
