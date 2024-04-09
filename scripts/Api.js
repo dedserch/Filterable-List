@@ -5,7 +5,7 @@ export default class Api {
 
     async getPosts(title, page = 1, perPage = 10) {
         try {
-            await new Promise(resolve => setTimeout(resolve, 500))
+            await new Promise(resolve => setTimeout(resolve, 200))
             const url = new URL(this.serverURL + "/posts")
             url.searchParams.append('_page', page)
             url.searchParams.append('_limit', perPage)
